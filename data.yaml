@@ -1,0 +1,6 @@
+train: ./dataset/images/train  # Đường dẫn tới thư mục ảnh huấn luyện
+val: ./dataset/images/val      # Đường dẫn tới thư mục ảnh kiểm tra
+test: ./dataset/images/test    # Đường dẫn tới thư mục ảnh kiểm tra (nếu có)
+
+nc: 1                          # Số lớp (class), ví dụ ở đây là 1 lớp cho biển số xe
+names: ['license__plate']        # Danh sách tên lớp, nếu chỉ có biển số xe thì chỉ cần 'license_plate'
